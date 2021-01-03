@@ -1,0 +1,95 @@
+* {
+    color: white;
+    font-family: "Gordita";
+}
+
+body {
+    background: url(../img/background-1789175.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-size: 8vw;
+    margin-bottom: 10px;
+}
+
+h1 > span {
+    color: #f60261;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: white;
+}
+
+.SocialNetworks {
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 25px 25px 25px 25px;
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.SocialNetworks > a > img{
+    filter: brightness(2000%);
+}
+
+.TitleNumber {
+    color: white;
+    font-weight: 600;
+    font-size: 2vw
+}
+
+.DiscordEmbded {
+    margin-top: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.CCC {  
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 10px 25px 25px 25px;
+    margin: 25px 25px 25px 25px;
+}
+
+.CCC > ul {
+    text-align: left;
+}
+
+.Projects {
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 10px 25px 25px 25px;
+    margin: 25px 25px 25px 25px;
+}
+
+.Projects > ul > li{
+    font-weight: lighter;
+}
+
+.Projects > h3 {
+    font-weight: bolder;
+}
+
+.Projects > ul > li > span {
+    font-weight: 700;
+}
